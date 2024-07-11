@@ -1,0 +1,23 @@
+nav {
+    padding: 20px 0;
+    display: grid;
+    background-color: var(--primary);
+}
+
+.nav-item {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    grid-row: 1;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item span:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+header {
+    background-image: url("https://www.herofincorp.com/public/admin_assets/upload/blog/64b91a06ab1c8_food%20business%20ideas.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    display: block;
+}
+
+#header {
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+#header h1 {
+    font-size: 3rem;
+}
+
+#header p {
+    font-size: 1.5rem;
+    margin: auto;
+    width: 60%;
+}
+
+#categories, #product {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+#container-category {
+    display: flex;
+    overflow-x: scroll;
+    gap: 2rem;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
